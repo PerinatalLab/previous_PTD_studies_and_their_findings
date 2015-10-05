@@ -1,0 +1,18 @@
+#
+#
+#	"Pathway-Based Genetic Analysis of Preterm Birth"
+#	Uzun et al. Genomics. 2013
+#
+# they did no filtering based on PROM or Labour !
+# they did only case control
+# their Manhattan plots in the results are DUPLICATED and thus it is ..
+# .. unclear what definition of PTD they used when reporting the top finding
+# only two top SNPs are reported: one from candidate and one from genome-wide maternal analysis
+#
+#
+#
+Chr	SNP	Pvalue	Genes	studyType	studyDesign	Genomes	Population
+# a single SNP reported from candidate gene analysis
+12	rs5742637	0.000145	IGF1	candidate-gene	CaseControl	M	Denmark
+# a single SNP reported from genome-wide analysis
+8	rs12682166	0.0000000499	CSMD1,MCPH1,ANGPT2	genome-wide	CaseControl	M	Denmark

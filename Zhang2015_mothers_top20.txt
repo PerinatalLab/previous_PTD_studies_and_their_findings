@@ -1,0 +1,36 @@
+#	"A Genome-Wide Association Study of Early Spontaneous Preterm Delivery"
+#	Heping Zhang et al.,  2015 Genetic Epidemiology
+#
+#
+# case-control study, PTB occurring at less than 20-34 weeks of gestation, controls: 39 -42weeks
+# only spontaneous
+# plus subsequent independent validation in cohort with similar phenotype data
+# exclusions: pregnancies complicated by polyhydramnios, uterine anomalies, cervical cerclage
+# exclusions: fetus with known aneuploidy or lethal anomaly
+# exclusions: controls with a history of PTB in any prior pregnancy were excluded
+# PROM:  Women who presented with premature membrane rupture were eligible for study participation only if they labored spontaneously and delivered before 34 weeks gestation.
+#
+#
+#
+# Table 3. Top 20 maternal SNPs from the genome-wide association study
+Chr	SNP	MapCoordinate 	MinorAllele	MAF	Pvalue	OR	Genes
+3	rs17053026	53418798	T	0.05	0.000001	0.44	DCP1A
+12	rs12830013	16677532	T	0.21	0.0000011	1.52	LMO3,MGST1
+4	rs17001970	77370038	T	0.08	0.0000056	1.80	SHROOM3
+9	rs501631	3943125	T	0.48	0.0000059	1.37	GLIS3
+8	rs6989497	27612891	A	0.12	0.0000062	1.60	CCDC25
+8	rs6987111	27600450	A	0.12	0.0000080	1.58	CCDC25
+8	rs7823365	27601594	A	0.12	0.00001	1.57	CCDC25
+2	rs12995518	50880025	T	0.36	0.000011	1.36	NRXN1
+5	rs2047075	4109621	C	0.43	0.000014	1.35	IRX1
+17	rs7211542	4374569	C	0.13	0.000021	1.51	SPNS3,SPNS2
+8	rs6989156	27604550	C	0.13	0.000022	1.53	CCDC25
+17	rs17746268	63315317	A	0.08	0.000026	1.65	RGS9
+4	rs6858750	56090836	A	0.04	0.000027	0.46	KDR,SRD5A3
+22	rs737627	45259574	A	0.03	0.00003	2.44	PHF21B
+10	rs6480306	69935235	T	0.02	0.000033	3.14	MYPN
+8	rs9314355	27699168	T	0.11	0.000033	1.56	PBK,SCARA5
+1	rs12066169	19070568	T	0.01	0.000033	5.22	PAX7
+12	rs11046680	23042553	A	0.05	0.000037	1.95	ETNK1,C2CD5
+10	rs17531466	36350381	T	0.06	0.00004	1.86	FZD8
+11	rs1025888	99747329	C	0.48	0.000041	1.32	CNTN5

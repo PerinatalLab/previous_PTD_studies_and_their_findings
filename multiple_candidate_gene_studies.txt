@@ -1,0 +1,321 @@
+# PretermBirth candidate-gene association studies and their "successes"
+#
+#
+#
+# "A functional SNP in the promoter of the SERPINH1 gene increases risk of preterm premature rupture of membranes in African Americans"
+# Wang.H. & Romero & Strauss III. Proceedings of the National Academy of Sciences of the United States of America. 2006.
+#
+# African american neonates
+#
+Wang H.	2006	rs77592601	11	F	SERPINH1
+#
+#
+############################################################
+############################################################
+#
+# "A 12-bp deletion in the 5'-flanking region of the SERPINH1 gene affects promoter activity and protects against preterm premature rupture of membranes in African Americans"
+# Wang H. Human mutation. 2008
+# ... novel 12-bp deletion in the 5'-flanking region of the SERPINH1 gene increases promoter activity ..
+# ... deletion is in LD with the minor "T" allele of the -656 C/T SNP ..
+# ... in a case-control study, fetal carriage of the 12-bp deletion was found to protect against PPROM
+# ... SNP name was looked-up (deduced) in UCSC browser
+# deletion interrupts a putative retinoic acid response element !
+# case-control study in African-American neonates: born at term (N=403), from PPROM pregs (N=291),
+# The 12-bp deletion was not found in 0 cases and 9/403 controls, P=0.0124
+# note that this study is likely incomparable with our GWAS (PPROM vs TERM)
+#
+Wang H.	2008	rs147436502	11	F	SERPINH1
+#11	PROM_African	WangH	2008	HumMut	
+#
+############################################################
+############################################################
+# "Evaluation of fetal and maternal genetic variation in the progesterone receptor gene for contributions to preterm birth"
+# Ehn N. Pediatric Research. 2007
+# maternal SNPs that passed Bonferroni correction
+#
+Ehn N.L.	2007	rs4754732	11	M	PGR#11	?	Ehn	2007	PedRes	PGR
+Ehn N.L.	2007	rs503362	11	M	PGR#11	?	Ehn	2007	PedRes	PGR
+Ehn N.L.	2007	rs653752	11	M	PGR#11	?	Ehn	2007	PedRes	PGR
+#
+# there were no fetal SNPs that passed Bonferroni threshold.
+############################################################
+############################################################
+#  "Toll-like Receptor 2 Polymorphism Is Associated With Preterm Birth"
+#  Krediet T. Pediatric Research. 2007
+# only fetal genomes were analysed. 305 infants. continuous GestAge. PROM ir nonPROM mixed. 
+# population from Netherlands, although there might be other ethnicities!
+Krediet T.G.	2007	rs4696480	4	F	TLR2
+Krediet T.G.	2007	rs5743708	4	F	TLR2
+#
+############################################################
+############################################################
+# "Maternal and fetal variation in genes of cholesterol metabolism is associated with preterm delivery"
+# Steffen KM.      Journal of Perinatology. 2007
+# maternal effects: 351 moms; only <37w; paternal genotypes served  as  controls  for  allele  effects
+# fetal effetcts: 414 children; only <37w; TDT was used
+# population:  USA; majority (88%) of white nonhispanics, but population is MIXED!!!
+# no info/filter/restriction to PROM or nonPROM
+#
+# maternal effect (with father as a reference):
+Steffen K.M.	2007	rs4149313	9	M	ABCA1#	signif (this SNP is not on 1000G so i will use coordinates of rs2066714)
+#Steffen K.M.	2007	rs7412	19	M	APOE#	suggestive,nonsignif
+#Steffen K.M.	2007	rs1109166	16	M	LCAT#	suggestive,nonsignif
+# fetal effect (TDT)
+#Steffen K.M.	2007	rs1630498	11	F	DHCR7#	continuous	suggestive,nonsignif
+#Steffen K.M.	2007	rs2002064	11	F	DHCR7# continuous	suggestive,nonsignif
+#
+############################################################
+############################################################
+# "Preterm birth in Caucasians is associated with coagulation and inflammation pathway gene variants"
+# Velez D. & Menon. PlosONE. 2008
+#
+#  PTD vs Term;  PROM is excluded!!!
+# Maternal and fetal DNA from 370 US Caucasian birth-events (172 cases and 198 controls) was examined
+# maternal
+#Velez D.	2008	rs32897	5	M	CRHBP#	suggestive,nonsignif
+#Velez D.	2008	rs10055255	5	M	CRHBP#	suggestive,nonsignif
+Velez D.	2008	rs879293	8	M	tPA#	significant,Bonferroni
+#Velez D.	2008	rs594454	1	M	PTGER3#	suggestive,nonsignif
+#
+# fetal (various models)
+#Velez D.	2008	rs17121510	11	F	IL10RA#	suggestive,nonsignif
+#
+############################################################
+############################################################
+# "Identification of fetal and maternal single nucleotide polymorphisms in candidate genes that predispose to spontaneous preterm labor with intact membranes"
+# Romero & Menon. American Journal of Obstetrics and Gynecology. 2010
+# no PROM; population:  Hispanic origin: Chile.
+# 223 PTD and 599 Term mothers
+# 179 PTD and 628 Term fetuses
+#
+# maternal:
+Romero R.	2010	rs2277698	17	M	TIMP2#	signif,FDR
+# fetal
+Romero R.	2010	rs8192282	1	F	IL6R#	signif,FDR
+#
+#
+#
+############################################################
+############################################################
+# "Maternal coding variants in complement receptor 1 and spontaneous idiopathic preterm birth"
+# McElroy JJ. & Muglia. Human Genetics. 2013.
+# 237 case  and  328  control  Finnish  mothers.
+#
+McElroy J.J.	2013	rs6691117	1	M	CR1#chr1	Eur_PTD	McElroyMuglia	2013	HumGenet	CR1 #missense p=6.93e-5  
+McElroy J.J.	2013	rs10429953	1	M	CR1#chr1	Eur_PTD	McElroyMuglia	2013	HumGenet	CR1 # p=1.31e-4
+McElroy J.J.	2013	rs10429943	1	M	CR1#chr1	Eur_PTD	McElroyMuglia	2013	HumGenet	CR1 # p=3.74e-4
+# was replicated in DNBC and Iowa data !!!
+#
+############################################################
+############################################################
+# "Effect of interleukin-6 polymorphism on risk of preterm birth within population strata: a meta-analysis"
+# Wu W. BMC Genetics. 2013
+# PTB in women of European. THIS IS META-ANALYSIS !
+Wu W.	2013	rs1800795	7	M	IL6
+#
+############################################################
+############################################################
+#
+# "Single-nucleotide polymorphisms in the KCNN3 gene associate with preterm birth"
+# Day L.J. & England. Reproductice Sciences. 2011
+# Spontaneous PTBs were defined by a natural (not induced) onset of contractions or premature rupture of membranes
+# analysed spontaneous and induces together and separately, but most results hold with only spontaneous.
+#
+#602 PTD children analysed with TDT for 16 SNPs in KCNN3
+#. Six SNPs (rs1218585, rs4845396, rs12058931, rs1218568, rs6426985, and rs4845394) were asso-
+#ciated with PTB (all Ps < .05). 
+#
+Day L.J.	2011	rs1218585	1	F	KCNN3
+Day L.J.	2011	rs4845396	1	F	KCNN3
+Day L.J.	2011	rs12058931	1	F	KCNN3
+Day L.J.	2011	rs1218568	1	F	KCNN3
+Day L.J.	2011	rs6426985	1	F	KCNN3
+Day L.J.	2011	rs4845394	1	F	KCNN3
+#
+#
+# the following block is only for testing (not sure whether authors run this model on mothers)
+# they used FBAT, but is is unclear whether FBAT results reflect fetal or maternal effects..
+#
+Day L.J.	2011	rs1218585	1	M	KCNN3
+Day L.J.	2011	rs4845396	1	M	KCNN3
+Day L.J.	2011	rs12058931	1	M	KCNN3
+Day L.J.	2011	rs1218568	1	M	KCNN3
+Day L.J.	2011	rs6426985	1	M	KCNN3
+Day L.J.	2011	rs4845394	1	M	KCNN3
+#
+# 512 Caucasian non-Hispanic mothers (412 with PTD; 100 term). 
+#
+Day L.J.	2011	rs1218585	1	M	KCNN3# (P .007)
+Day L.J.	2011	rs1218584	1	M	KCNN3# (p .05)
+#
+#
+#...and a novel SNP at chromosome1:153099353 (.02)  !!!!!
+#
+#
+############################################################
+############################################################
+# "Sequence variants in oxytocin pathway genes and preterm birth: A candidate gene association study"
+# Kim J. & Murray. BMC Medical Genetics. 2013.
+#
+Kim J.	2013	rs4686302	3	M	OXTR#	suggestive,nonsignif
+Kim J.	2013	rs237902	3	M	OXTR#	suggestive,nonsignif
+#
+############################################################
+############################################################
+#
+#
+# "Cytokine gene polymorphisms and length of gestation"
+# Harper M. & Anderson. Obstetrics and Gynecology. 2011
+# includes AfricanAmerican race!!
+# mothers
+#
+Harper M.	2011	rs1800629	6	M	TNFa
+#
+# ......................   find the SNP names !!!!
+#
+############################################################
+############################################################
+#
+# "Polymorphisms in the promoter region of relaxin-2 and preterm birth: Involvement of relaxin in the etiology of preterm birth" 
+# Vogel I. & Grove. In Vivo. 2009
+#
+# Circulating relaxin levels have repeatedly been associated with preterm birth (PTB). 
+# Maternal DNA from 80 preterm cases: 40 24-34weeks and 40 34-36weeks; 40 controls (term delivery)
+# Danish National Birth Cohort were examined for nine SNPs.
+#
+Vogel I.	2009	rs10115467	9	M	RLN2
+#Vogel I.	2009	rs4742076	9	M	RLN2# nonsignif after multiple test corection
+#
+#
+############################################################
+############################################################
+#
+# "Association of polymorphisms in natural killer cell-related genes with Preterm Birth"
+# Harmon & Avery. American Journal of Epidemiology. 2013
+#
+# Maternal DNA from 1,646 participants North Carolina (1995-2005); European Americans
+# 432 SNPs in 30 candidate genes
+# Six genes were associated with PTD: IL12A; CSF2; IFNGR2; KIR3DL2; IL4; IL13.
+# Of these, relatively strong single-SNP associations were seen in IFNGR2 and KIR3DL2.
+#
+#Among the 4 genes related to natural killer cell function, 2 (IL12A and CSF2) were #consistently associated with #reduced risk of prematurity for both European and African Americans. 
+#SNPs tagging a locus #control region for IL4 and IL13 were associated with an increased risk of spontaneous preterm #birth for European #Americans (rs3091307; risk ratio = 1.9; 95% confidence interval: 1.4, 2.5).#
+#
+#Only significant in European American, but not European and not American...  wtf ?
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# ...... get SNP names!!!!!
+#
+#
+#
+#
+#
+#
+#
+############################################################
+############################################################
+#
+# "Single-nucleotide polymorphism associations with preterm delivery: A case-control replication study and meta-analysis"
+# O'Callaghan M.E. & Dekker. Pediatric Research. 2013.
+# children: 170 cases and 583 controls (plus metaanalysis). cases with and without cerebral palsy.
+# Eight candidate SNPs investigated
+#
+O'Callaghan M.E.	2013	rs6025	1	F	FLV#	p=0.008
+#
+############################################################
+############################################################
+# "A single-nucleotide polymorphism in the fetal catechol-o-methyltransferase gene is associated with spontaneous preterm birth in African Americans"
+# Thota C. & Menon & Al-hendy.  Reproductive Sciences. 2012
+# only in mothers. bot caucasian and AfrAmer. All from USA
+#
+Thota C.	2012	rs4818	22	M	COMT#	p<.001 (only_in_africanAmericans)
+#
+############################################################
+############################################################
+#
+# "Association of a common genetic factor, ptger3, with outcome of periodontal therapy and preterm birth"
+#
+# Jeffcoat M.K. & Parry.  Journal of Periodontology. 2014
+# All 152 pregnancies in genotyped women resulted in live births
+# prostaglandin E receptor 3 
+# PTGER3 SNP and sPTB (odds ratio 6.89, P <0.0032). Only this SNP matches the periodontal therapy success.
+Jeffcoat M.K.	2014	rs2817864	1	M	PTGER3
+Jeffcoat M.K.	2014	rs11570978	12	M	IL26
+Jeffcoat M.K.	2014	rs12720305	19	M	TYK2
+Jeffcoat M.K.	2014	rs1899941	5	M	LIFR
+#
+############################################################
+############################################################
+# "Genetic associations of relaxin: Preterm birth and premature rupture of fetal membranes "
+# Rocha F.G. & Greenwood.  American Journal of Obstetrics and Gynecology. 2013
+# Filipino mothers
+# sPTB (n = 23) or PPROM (n = 20) 34-37w;
+# term 39-40w control subjects (n = 20)
+#
+Rocha F.G.	2013	rs4742076	9	M	RLN2# (PPROM p=0.001)
+Rocha F.G.	2013	rs3758239	9	M	RLN2# (PPROM p=0.0002 and sPTB p=0.003)
+#
+############################################################
+############################################################
+# "A TIR domain receptor-associated protein (TIRAP) variant SNP (rs8177374) confers protection against premature birth"
+# Karody V.R. & Sampath. Journal of Perinatology. 2013.
+#
+# infant DNA: 150 were term infants, 178 were preterm. USA population
+#TIR domain receptor-associated protein (TIRAP) variant was more prevalent in term infants when compared with preterm #infants born <32 weeks (P=0.004). 
+#Presence of the TIRAP variant protected against PTB <32 weeks (P=0.015) in Caucasian infants
+#NOTE!!  only significant for early preterms
+#NOTE!!! no measures were taken regarding population stratification
+#
+Karody V.R.	2013	rs8177374	11	F	TIRAP
+#
+############################################################
+############################################################
+#
+# "Two novel genetic variants in the mineralocorticoid receptor gene associated with spontaneous preterm birth"
+# Christiaens I. & Olson. BMC Medical Genetics. 2015
+#
+# maternal DNA was available from saliva samples of 190 cases and 369 controls and compared.
+# they adjusted for multiple factors...
+# CANADIAN population. but what about population stratification?! they had African and Hispan..
+#
+Christiaens I.	2015	rs17484063	4	M	NR3C2#(OR 0.50, p = 0.038)
+Christiaens I.	2015	rs2883929	4	M	NR3C2#(OR 0.49, p = 0.017)
+#Christiaens I.	2015	rs4835136	4	M	NR3C2#(p=0.004, without adjustments!)
+#Christiaens I.	2015	rs7680420	4	M	NR3C2#(p=0.017, without adjustments!)
+#
+############################################################
+############################################################
+# "Association between SNPs in genes involved in folate metabolism and preterm birth risk"
+# Wang & Chen. Genetics and Molecular Research. 2015.
+#
+# included 315 preterm births and 188 controls. (infants)
+# no significant SNPs..
+############################################################
+############################################################
+##
+#
+############################################################
+############################################################
+# "Association between the Asp299Gly polymorphisms in the Toll-like receptor 4 and premature births in the Finnish population"
+# Lorenz E. & Schwartz. Pediatric Research. 2002
+#
+# Finnish study population consisting of a total of 351 term infants and 440 premature infants
+#The frequencies of 299Gly allele and Asp/Gly or Gly/Gly genotype carrier status in premature singleton infants were #higher than in term singleton infants (p = 0.024, p = 0.028, respectively)
+#premature  infants  as  a result  of  spontaneous  birth  or  PPROM  had  a  higher  TLR4 variant allele frequency than #the term infants (p = 0.021) 
+#
+Lorenz E.	2002	rs4986790	9	F	TLR4
+#
+#############
+#
+# "Innate immune system gene polymorphisms in maternal and child genotype and risk of preterm delivery"
+# Jones & Wirth. Journal of Maternal-Fetal and Neonatal Medicine. 2012.
+#
+#  article is not available...
