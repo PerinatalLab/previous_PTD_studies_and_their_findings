@@ -319,3 +319,107 @@ Lorenz E.	2002	rs4986790	9	F	TLR4
 # Jones & Wirth. Journal of Maternal-Fetal and Neonatal Medicine. 2012.
 #
 #  article is not available...
+############
+## Julius 
+############
+############################################################
+############################################################
+# "Association of polymorphism within the promoter of the tumor necrosis factor α gene with increased risk of preterm premature rupture of the fetal membranes"
+# Roberts, Monzon-Bordanaba
+# The rarer allele of a polymorphism within the promoter region at position -308 of the gene for tumor necrosis factor α is associated with increased gene transcription. In this study we tested the hypothesis that this rarer allele is associated with spontaneous preterm birth.
+#
+### African-American women who were delivered preterm
+#
+Roberts A.K.	1999	rs1800629	6	F	TNFA
+#
+############################################################
+############################################################
+# "Polymorphism in the interleukin-1 gene complex and spontaneous preterm delivery"
+# Genc, Gerber
+# Homozygous carriage of IL1B+3953 allele 1 by fetuses of African descent was associated with a risk of preterm delivery (P = .033). Fetuses of Hispanic descent that carried IL1RN allele 2 were found to be at an increased risk for preterm premature rupture of membranes and subsequent preterm delivery.
+#
+Genc M.R.	2002	rs1143634	2	F	IL1B
+#
+############################################################
+############################################################
+# "Risk of spontaneous preterm birth is associated with common proinflammatory cytokine polymorphisms"
+# Engel et al.
+#  Our results suggest that common genetic variants in proinflammatory cytokine genes could influence the risk for spontaneous preterm birth. Both African-American and white carriers of IL6(-237)C had increased risk of spontaneous preterm birth. 
+#
+# Finally, polymorphisms in IL1[alpha] and IL1[beta] were modestly associated with spontaneous preterm birth in white women.
+#
+Engel S.A.M.	2005	rs1800795	7	M	IL6
+Engel S.A.M.	2005	rs17561	2	M	IL1A
+#
+############################################################
+############################################################
+# "Interleukins-1, -4, -6, -10, tumor necrosis factor, transforming growth factor-β, FAS, and mannose-binding protein C gene polymorphisms in Australian women: Risk of preterm birth"
+# Annells, Hart
+# The purpose of this study was to examine the relationship between preterm birth and 22 single nucleotide polymorphisms in genes that encode cytokines and mediators of apoptosis and host defense.
+## (note: they found more things, but either copy number variations or haplotypes from several SNPs)
+#
+Annells M.F.	2004	rs2243250	5	M	IL4
+#
+############################################################
+############################################################
+# "Interleukin-6 promoter -174 polymorphism and spontaneous preterm birth."
+# Simhan HN, Krohn MA
+# The IL-6 promoter -174 allelic variant C/C is significantly less frequent among women with sPTB less than 34 weeks. There is a dramatic racial disparity in the distribution of allelic variants of this polymorphism.
+#
+Simhan H.N.	2003	rs1800795	7	M	IL6
+#
+############################################################
+############################################################
+# "Polymorphisms of genes involved in innate immunity: Association with preterm delivery"
+# Hartel Ch., Finas D.
+#
+Hartel C.	2004	rs1800795	7	M	IL6
+#
+############################################################
+############################################################
+# "A candidate gene association study on preterm delivery: application of high-throughput genotyping technology and advanced statistical methods"
+# Ke Hao, Xiaobin Wang
+#
+Hao K.	2004	rs6019	1	M	F5
+#
+############################################################
+############################################################
+# "Progesterone Receptor (PGR) gene polymorphism is associated with susceptibility to preterm birth"
+# Langmia I.M., Apalasamy Y.D.
+# The odds of G allele occurring among Malay women with preterm delivery was twice that of Malay women with term delivery.
+#
+# Malay population!
+Langmia I.M.	2015	rs660149	11	M	PGR
+#
+############################################################
+############################################################
+# "MTHFR (C677T) polymorphism and PR (PROGINS) mutation as genetic factors for preterm delivery, fetal death and low birth weight: A Northeast Indian population based study"
+# Diptika Tiwari, Purabi Deka Bose
+# Presence of MTHFR C677T polymorphism was significantly associated and resulted in the increased risk of PTD (p < 0.001), negative pregnancy outcome (p < 0.001) and LBW (p = 0.001); more significantly in extreme and very preterm cases.
+# North Indian population!
+#
+Tiwari D.	2015	rs1801133	1	M	MTHFR
+#
+############################################################
+############################################################
+# "Genetic association of AKAP10 gene polymorphism with reduced risk of preterm birth"
+# Langmia I.M., Apalasamy Y.D.
+#
+# Following stratification by ethnicity, a significant association was observed between the AC and CC genotypes of rs169412 and term birth in the Malay ethnic subgroup.
+#
+# Again, Malay population
+#
+Langmia I.	2015	rs119672	17	M	AKAP10
+Langmia I.	2015	rs169412	17	M	AKAP10
+#
+############################################################
+############################################################
+# "Association of VEGFA gene polymorphisms and VEGFA plasma levels with spontaneous preterm birth"
+# Langmia I.M., Apalasamy Y.D.
+#
+# Results showed a significant association between rs2010963 variants and PTB at both allelic and genotypic levels. The frequencies of CG and GG genotypes were significantly higher in the preterm group (96%) than in the term group (87%) (P=0.012).
+# Again, Malay population
+#
+Langmia I.	2015	rs2010963	17	M	VEGFA
+#
+############################################################
